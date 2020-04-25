@@ -1,0 +1,15 @@
+#recipe Blog
+
+// Customize your settings and add new ones here
+Settings[Keys.Host] = "globalazure.brianjablonsky.com";
+Settings[Keys.LinksUseHttps] = true;
+Settings[Keys.LinkHideExtensions] = false;
+Settings[Keys.LinkHideIndexPages] = false;
+Settings[BlogKeys.Title] = "Global Azure Static Site Blog";
+Settings[BlogKeys.Description] = "Welcome!";
+Settings[BlogKeys.IncludeDateInPostPath] = true;
+Settings[BlogKeys.IndexFullPosts] = true;
+Settings[BlogKeys.IndexPageSize] = 3;
+Settings[BlogKeys.IndexPaging] = true;
+
+// Add any pipeline customizations here
